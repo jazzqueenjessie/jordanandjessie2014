@@ -8,8 +8,14 @@ gem 'rails', '4.0.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #added "do" around sqlite and ver # for hartl tutorial
-group :development do
+group :development, :test do
   gem 'sqlite3', '1.3.7'
+  gem 'rspec-rails', '2.13.1'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.0.0'
+  gem 'capybara', '2.1.0'
 end
 
 #added from hartl tutorial
@@ -53,3 +59,8 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end

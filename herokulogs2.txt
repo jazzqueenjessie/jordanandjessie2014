@@ -1,0 +1,101 @@
+2013-08-24T03:03:17.892884+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:03:23.065135+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 20193 -e $RAILS_ENV`
+2013-08-24T03:03:23.856027+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:03:25.287879+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:03:25.318224+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:03:33.231209+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T03:03:33.231875+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T03:13:43.946207+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:13:48.889846+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 44422 -e $RAILS_ENV`
+2013-08-24T03:13:49.828961+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:13:51.613373+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:13:51.629179+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:13:59.106302+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T03:13:59.106302+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T03:23:55.704297+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:24:15.527613+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 57855 -e $RAILS_ENV`
+2013-08-24T03:24:20.513537+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:24:21.793870+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:24:21.825744+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:34:26.983750+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:34:31.787367+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 58482 -e $RAILS_ENV`
+2013-08-24T03:34:32.462983+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:34:33.819836+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:34:33.834149+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:44:32.743322+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:44:37.478309+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 25129 -e $RAILS_ENV`
+2013-08-24T03:44:38.170431+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:44:39.413926+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:44:39.427874+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:54:50.828489+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T03:54:57.010400+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 50274 -e $RAILS_ENV`
+2013-08-24T03:54:57.906359+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T03:54:59.342278+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T03:54:59.586092+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T03:55:07.151118+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T03:55:07.151411+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T04:05:24.568985+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:05:29.207480+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 39679 -e $RAILS_ENV`
+2013-08-24T04:05:30.077915+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:05:31.645639+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:05:31.634811+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:05:39.374751+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T04:05:39.374493+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T04:15:54.549765+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:16:00.894533+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 59061 -e $RAILS_ENV`
+2013-08-24T04:16:01.684112+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:16:03.352178+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:16:03.390946+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:16:11.088812+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T04:16:11.089101+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T04:25:59.964812+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:26:05.950348+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 34561 -e $RAILS_ENV`
+2013-08-24T04:26:06.470440+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:26:07.588939+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:26:07.601368+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:26:16.430810+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T04:26:16.430979+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T04:36:11.005044+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:36:14.609343+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 35371 -e $RAILS_ENV`
+2013-08-24T04:36:15.171802+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:36:16.258177+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:36:16.250392+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:46:14.725584+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:46:18.623203+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 22010 -e $RAILS_ENV`
+2013-08-24T04:46:19.166780+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:46:20.824224+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:46:19.309884+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:56:26.937346+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T04:56:31.866559+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 42944 -e $RAILS_ENV`
+2013-08-24T04:56:32.889518+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T04:56:34.037219+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T04:56:34.053986+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T04:56:42.071540+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T04:56:42.071755+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T05:06:33.853979+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T05:06:37.941019+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 24440 -e $RAILS_ENV`
+2013-08-24T05:06:38.423893+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T05:06:39.473720+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T05:06:39.485963+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T05:06:48.417384+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T05:06:48.417522+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T05:13:01.489167+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=jordanandjessie2014.herokuapp.com fwd="76.89.151.87" dyno= connect= service= status=503 bytes=
+2013-08-24T05:16:43.363400+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T05:16:47.983939+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 55419 -e $RAILS_ENV`
+2013-08-24T05:16:48.706364+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T05:16:50.094044+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T05:16:50.130777+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T05:16:58.182244+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T05:16:58.182244+00:00 heroku[web.1]: Stopping process with SIGKILL
+2013-08-24T05:27:13.754630+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T05:27:20.756274+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 11346 -e $RAILS_ENV`
+2013-08-24T05:27:22.029782+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T05:27:23.474046+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T05:27:23.481563+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T05:37:27.181721+00:00 heroku[web.1]: State changed from crashed to starting
+2013-08-24T05:37:33.035621+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 58741 -e $RAILS_ENV`
+2013-08-24T05:37:34.334785+00:00 app[web.1]: bash: bin/rails: No such file or directory
+2013-08-24T05:37:36.390305+00:00 heroku[web.1]: Process exited with status 127
+2013-08-24T05:37:36.405911+00:00 heroku[web.1]: State changed from starting to crashed
+2013-08-24T05:37:43.311691+00:00 heroku[web.1]: Error R99 (Platform error) -> Failed to launch the dyno within 10 seconds
+2013-08-24T05:37:43.311977+00:00 heroku[web.1]: Stopping process with SIGKILL
