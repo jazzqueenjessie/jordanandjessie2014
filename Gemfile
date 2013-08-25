@@ -18,13 +18,6 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
-#added from hartl tutorial
-group :production do
-  gem 'pg', '0.15.1'
-  gem 'rails_12factor', '0.0.2'
-end
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
