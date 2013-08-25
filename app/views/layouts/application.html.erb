@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jordan and Jessie <%=yield(:title) %></title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <title>Jordan and Jessie * <%=yield(:title) %></title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
-
-<%= yield %>
-
+  <header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <!--%= link_to "sample app", '#', id: "logo" %-->
+        <nav>
+          <ul class="nav pull-left">
+          <li><%= link_to "home", '#' %></li>
+          <li><%= link_to "us", '#' %></li>
+          <li><%= link_to "wedding", '#' %></li>
+          <li><%= link_to "bridal party", '#' %></li>
+          <li><%= link_to "location", '#' %></li>
+          <li><%= link_to "photos", '#' %></li>
+          <li><%= link_to "registry", '#' %></li>
+          <li><%= link_to "RSVP", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
