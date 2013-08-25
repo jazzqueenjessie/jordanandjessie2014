@@ -12,7 +12,7 @@ Jordanandjessie2014::Application.configure do
   config.static_cache_control = "public, max-age=3600"
 
   # Log error messages when you accidentally call methods on nil
-  config.whiny_nils = false#deprecated options
+  #config.whiny_nils = false#deprecated options
   config.eager_load = true
 
   # Show full error reports and disable caching
