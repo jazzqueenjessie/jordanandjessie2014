@@ -1,4 +1,12 @@
 Jordanandjessie2014::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/us"
+  get "static_pages/wedding"
+  get "static_pages/bridalparty"
+  get "static_pages/location"
+  get "static_pages/photos"
+  get "static_pages/registry"
+  get "static_pages/RSVP"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
