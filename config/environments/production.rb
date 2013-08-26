@@ -2,7 +2,7 @@ Jordanandjessie2014::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
   
   #to precompile assets and get font to work
-  config.assets.precompile += ['static_pages.css']
+  config.assets.precompile += ['*.css']
   #add the fonts path
   #config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
   #precompile additional assets
@@ -19,7 +19,7 @@ Jordanandjessie2014::Application.configure do
   config.eager_load = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
