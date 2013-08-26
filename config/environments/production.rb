@@ -2,7 +2,7 @@ Jordanandjessie2014::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
   
   #to precompile assets and get font to work
-  config.assets.precompile += ['*.css']
+  #config.assets.precompile += ['*.css']
   #add the fonts path
   #config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
   #precompile additional assets
