@@ -7,8 +7,9 @@
 /*need to fix this - fonts should be in /assets and be able to reference them, but does not work currently*/
 @font-face {
 	font-family: KonTiki;
-	src: url('fonts/KonTikiEnchantedJF.ttf');/* IE */
-	src: local("KonTiki"), url( 'fonts/KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
+	src: url('KonTikiEnchantedJF.ttf');
+	/* IE */
+	/*src: local("KonTiki"), url( 'fonts/KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
 }
 @font-face {
 	font-family: FanfareJF;
