@@ -9,12 +9,12 @@
 	font-family: 'KonTiki';
 	src: url('KonTikiEnchantedJF.ttf');
 	/* IE */
-	src: local("KonTiki"), url( 'fonts/KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
+	src: local("KonTiki"), url( 'KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
 }
 @font-face {
 	font-family: FanfareJF;
 	src: url('FanfareJF.ttf');
-	src: local("FanfareJF"), url( 'fonts/FanfareJF.ttf' ) format("truetype"); /* non-IE */  
+	src: local("FanfareJF"), url( 'FanfareJF.ttf' ) format("truetype"); /* non-IE */  
 }
 
 
