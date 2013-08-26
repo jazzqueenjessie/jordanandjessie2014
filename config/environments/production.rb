@@ -3,9 +3,9 @@ Jordanandjessie2014::Application.configure do
   
   #to precompile assets and get font to work
   #add the fonts path
-  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+  #config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
   #precompile additional assets
-  config.assets.precompile += %w( .svg .eot .woff .ttf )
+  #config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   # Code is not reloaded between requests
   config.cache_classes = true
