@@ -1,11 +1,11 @@
 class StaticPagesController < ApplicationController
-  def home
+  def wedding
   end
 
   def us
   end
 
-  def wedding
+  def weddingday
   end
 
   def bridalparty

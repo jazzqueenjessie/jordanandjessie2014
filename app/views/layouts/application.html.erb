@@ -5,9 +5,7 @@
   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <%= render 'layouts/shim' %>
 </head>
 <body>
 <div id="main-wrapper">
@@ -17,16 +15,7 @@
   
   <%= debug(params) if Rails.env.development? %>
 
-  <div id="navigation">
-	 <%= link_to "home", '#' %>
-     <%= link_to "us", '#' %>
-     <%= link_to "wedding", '#' %>
-     <%= link_to "bridal party", '#' %>
-     <%= link_to "location", '#' %>
-     <%= link_to "photos", '#' %>
-     <%= link_to "registry", '#' %>
-     <%= link_to "RSVP", '#' %>
-  </div>
+  <%= render 'layouts/navbar' %>
     
 </body>
 </html>

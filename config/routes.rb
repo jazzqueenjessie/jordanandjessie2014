@@ -1,12 +1,22 @@
 Jordanandjessie2014::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/us"
-  get "static_pages/wedding"
-  get "static_pages/bridalparty"
-  get "static_pages/location"
-  get "static_pages/photos"
-  get "static_pages/registry"
-  get "static_pages/RSVP"
+  root 'static_pages#wedding'
+  match '/wedding',            to: 'static_pages#wedding',        via: 'get'
+  match '/us',          to: 'static_pages#us',          via: 'get'
+  match '/weddingday',     to: 'static_pages#weddingday',     via: 'get'
+  match '/bridalparty', to: 'static_pages#bridalparty', via: 'get'
+  match '/location',    to: 'static_pages#location',    via: 'get'
+  match '/photos',      to: 'static_pages#photos',      via: 'get'
+  match '/registry',    to: 'static_pages#registry',    via: 'get'
+  match '/rsvp',        to: 'static_pages#rsvp',        via: 'get'
+  #get "static_pages/home"
+  #get "static_pages/us"
+  #get "static_pages/wedding"
+  #get "static_pages/bridalparty"
+  #get "static_pages/location"
+  #get "static_pages/photos"
+  #get "static_pages/registry"
+  #get "static_pages/RSVP"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
