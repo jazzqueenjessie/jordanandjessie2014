@@ -1,5 +1,11 @@
 Jordanandjessie2014::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  
+  #to precompile assets and get font to work
+  #add the fonts path
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+  #precompile additional assets
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   # Code is not reloaded between requests
   config.cache_classes = true
@@ -8,7 +14,7 @@ Jordanandjessie2014::Application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
-  config.whiny_nils = true#a fix said to add this, may not work?
+  #config.whiny_nils = true#a fix said to add this, may not work?
   config.eager_load = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this)
