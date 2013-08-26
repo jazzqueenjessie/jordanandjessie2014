@@ -60,6 +60,6 @@ module Jordanandjessie2014
     config.assets.version = '1.0'
     
     #make boostrap-sass compatibel with the asset pipeline
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    #config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)#screw bootstrap for now
   end
 end
