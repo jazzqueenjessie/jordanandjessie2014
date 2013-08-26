@@ -10,27 +10,23 @@
   <![endif]-->
 </head>
 <body>
-  <header class="navbar navbar-fixed-top navbar-inverse">
-    <div class="navbar-inner">
-      <div class="container">
-        <!--%= link_to "sample app", '#', id: "logo" %-->
-        <nav>
-          <ul class="nav pull-left">
-          <li><%= link_to "home", '#' %></li>
-          <li><%= link_to "us", '#' %></li>
-          <li><%= link_to "wedding", '#' %></li>
-          <li><%= link_to "bridal party", '#' %></li>
-          <li><%= link_to "location", '#' %></li>
-          <li><%= link_to "photos", '#' %></li>
-          <li><%= link_to "registry", '#' %></li>
-          <li><%= link_to "RSVP", '#' %></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <div class="container">
-    <%= yield %>
+<div id="main-wrapper">
+  <div id="titlebar">Jessie &amp; Jordan</div>
+  
+      <%= yield %>
+  
+  <%= debug(params) if Rails.env.development? %>
+
+  <div id="navigation">
+	 <%= link_to "home", '#' %>
+     <%= link_to "us", '#' %>
+     <%= link_to "wedding", '#' %>
+     <%= link_to "bridal party", '#' %>
+     <%= link_to "location", '#' %>
+     <%= link_to "photos", '#' %>
+     <%= link_to "registry", '#' %>
+     <%= link_to "RSVP", '#' %>
   </div>
+    
 </body>
 </html>
